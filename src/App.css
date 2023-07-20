@@ -1,8 +1,16 @@
 #root {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+body {
+  background-size: 100% 100%;
+  background-image: url(./assets/main-bg.jpg);
+  object-fit: contain;
+  height: 100vh;
+  position: relative;
 }
 
 .logo {
